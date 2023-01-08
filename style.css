@@ -1,0 +1,205 @@
+.header {
+    list-style-type: none;
+    margin: 10px;
+    overflow: hidden;
+    margin-right: 16px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .headerli a {
+    display: block;
+    color: rgba(0,0,0,0.87);
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    float: right;
+  }
+  
+  .headerli a:hover {
+    text-decoration: underline;
+  }
+  
+  .pic img {
+    height: 32px;
+    border-radius: 50px;
+    background-size: 32px;
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 25px;
+  }
+  
+  .search-area {
+  /* tasarım gölge vs gelecek*/
+  display: flex;
+  z-index: 3;
+  height: 33px;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  margin: 0 auto;
+  width: 480px;
+  width: auto;
+  max-width: 480px;
+  }
+  
+  .voice-search-img{
+    width: 24px;
+    height: 24px;
+    margin-top: 4px;
+  }
+  
+  .search-area:hover {
+    box-shadow:0 1px 6px 0 rgb(32 33 36 / 28%);
+    border-radius: 24px;
+  }
+  
+  .search {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+  }
+  
+  .search-img {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+  }
+  
+  .search-img span {
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+  }
+  
+  .input-area input{
+    font: 16px arial;
+    height: 31px;
+    width: 400px;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+  }
+
+  .googlesearch :hover{
+    border-color: black;
+  }
+  
+  .googlesearch {
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }
+  .googlesearch
+   {
+      position: absolute;
+
+      left: 710px;
+      top: 370px;
+
+  
+  }
+  
+  .feelinglucky
+   {
+      position: absolute;
+
+      right: 700px;
+      top: 380px;
+   }
+  .feelinglucky {
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    
+  }
+  
+  .buttons {
+    margin-left: 550px;
+  }
+  
+  .buttons :hover{
+    border-style:double;
+  }
+  
+  .buttons button{
+    font-family: arial;
+    font-size: 14px;
+    height: 36px;
+    border: none;
+    border-width: 1px;
+    border-radius: 4px;
+  }
+  
+  .footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #dfe1e5;
+    border-top: 1px solid #dadce0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+    line-height: 10px;
+  }
+  
+  .footerli {
+    float: left;
+  }
+  
+  .footerli a {
+    display: block;
+    color: #70757a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-right: -20px;
+  }
+  
+  .footerli a:hover {
+    text-decoration: underline;
+  }
+  
+  li{
+    list-style-type: none;
+  }
+  
+  .about {
+    text-decoration:none;
+    float: left;
+    color: rgba(0,0,0,0.87);
+    margin-right: 20px;
+  }
+  .about:hover {text-decoration:underline;}
+  
+  .store {
+    text-decoration:none;
+    float: left;
+    color: rgba(0,0,0,0.87);
+  }
+  .store:hover {text-decoration:underline;}
